@@ -1,0 +1,20 @@
+#this parameter file was used with pyradiomics to extract features for model training as in the article 
+
+#"PSMA PET as a predictive tool for sub-regional importance estimates in the parotid gland"
+
+#By Caleb Sample, Arman Rahmim, Francois Benard, Jonn Wu, Haley Clark.
+
+
+imageType:
+  Square:
+    binWidth: 1   
+
+  
+
+featureClass:
+  glcm: []
+  glrlm: []
+  glszm: []
+  gldm: []
+  firstorder: []
+  
